@@ -12,9 +12,9 @@ This project demonstrates modern full-stack development along with AI-based anal
 🔐 User Authentication (Signup & Login)
 📊 Interactive Dashboard
 📄 Candidate/Resume Analysis (AI-based concept)
-🔄 Frontend ↔ Backend API integration
-⚡ Fast and responsive UI
-🧭 Multi-page navigation using React
+🔄 Frontend ↔ Backend API Integration
+⚡ Fast and Responsive UI
+🧭 Multi-page Navigation using React
 🧠 AI Functionality
 
 The system simulates intelligent hiring assistance by:
@@ -33,52 +33,34 @@ JavaScript (ES6+)
 HTML5 & CSS3
 Axios
 Framer Motion
+
 ⚙️ Backend
 FastAPI (Python)
-REST API architecture
+REST API Architecture
 JWT Authentication (if implemented)
-SQLite / Database (based on your setup)
+SQLite / Database
 🔧 Tools
 Git & GitHub
-Postman (API testing)
-📂 Project Structure
-ai_hiring_system/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend/
-│   ├── main.py
-│   ├── routes/
-│   ├── models/
-│   ├── database/
-│   └── requirements.txt
-│
-└── README.md
+Postman (API Testing)
+
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+1️⃣ Clone the Repository
 git clone https://github.com/Hemalathaa2/ai_hiring_system.git
 cd ai_hiring_system
 2️⃣ Setup Backend
 cd backend
 
-# create virtual environment
+# Create virtual environment
 python -m venv venv
 
-# activate environment
-venv\Scripts\activate   # Windows
-source venv/bin/activate  # Mac/Linux
+# Activate environment
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
 
-# install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# run server
+# Run server
 uvicorn main:app --reload
 
 👉 Backend runs at:
@@ -93,42 +75,19 @@ npm run dev
 http://localhost:5173
 
 🔗 API Integration
-
 The frontend communicates with the backend using REST APIs:
-
 /auth/signup → Register user
 /auth/login → Login user
 /analyze → Candidate analysis
+
 🧪 Usage
 Register a new account
 Login to the system
 Access dashboard
 Upload / analyze candidate data
 View insights and results
-📸 Screenshots (Add these)
-Login Page
-Signup Page
-Dashboard
-Analysis Page
-🚀 Future Improvements
-Integrate real NLP/AI models (resume parsing)
-Add candidate ranking system
-Improve UI/UX design
-Role-based authentication
-Deploy full-stack (Frontend + Backend)
-🌐 Deployment
 
-(Add your live links here)
-
-Frontend: (Vercel / Netlify)
-Backend: (Render / Railway)
-👩‍💻 Author
-
-Hemalatha Hema
-
-GitHub: https://github.com/Hemalathaa2
 📌 Conclusion
-
 This project demonstrates a full-stack AI-powered hiring system, showcasing frontend development, backend API design, and AI-based problem-solving. It is a strong portfolio project for software development and AI-integrated applications.
 
 ⭐ If you found this project useful, feel free to star the repository!
